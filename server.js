@@ -28,6 +28,7 @@ var express         = require('express'),
 app.route('/').all().get(function (req, res) {
         res.render('index');
 });
+
 app.route('/page').get(function (req, res) {
     res.render('page')
 });
